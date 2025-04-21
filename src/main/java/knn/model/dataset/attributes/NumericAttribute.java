@@ -6,7 +6,7 @@ import knn.model.dataset.PreprocessingType;
  * Clase que representa un atributo numérico del dataset.
  * Almacena estadísticas como valor mínimo, máximo, media y desviación típica.
  *
- * @author Tu Nombre
+ * @author Daniel Alejandro Álvarez Casablanca
  * @version 1.0
  */
 public class NumericAttribute extends Attribute {

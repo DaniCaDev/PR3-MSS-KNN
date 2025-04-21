@@ -7,7 +7,7 @@ import java.util.Map;
  * La clase elegida debe tener una proporción de votos superior al umbral definido.
  * Si ninguna clase supera el umbral, se elige la de mayor votación.
  *
- * @author Tu Nombre
+ * @author Daniel Alejandro Álvarez Casablanca
  * @version 1.0
  */
 public class ThresholdRule implements ClassificationRule {

@@ -10,7 +10,7 @@ import java.util.Map;
  * Implementación de estrategia de peso basada en la distancia.
  * Los vecinos tienen un peso inversamente proporcional a su distancia.
  *
- * @author Tu Nombre
+ * @author Daniel Alejandro Álvarez Casablanca
  * @version 1.0
  */
 public class DistanceBasedWeight implements CaseWeightStrategy {

@@ -4,7 +4,7 @@ package knn.model.classification.metrics;
  * Interfaz para definir diferentes métricas de distancia entre instancias.
  * Cada implementación debe calcular una medida de distancia específica.
  *
- * @author Tu Nombre
+ * @author Daniel Alejandro Álvarez Casablanca
  * @version 1.0
  */
 public interface DistanceMetric {

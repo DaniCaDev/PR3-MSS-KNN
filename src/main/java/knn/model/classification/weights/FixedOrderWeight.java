@@ -11,7 +11,7 @@ import java.util.Map;
  * Implementación de estrategia de peso fijo según el orden.
  * Los vecinos tienen pesos predefinidos según su posición en la lista ordenada.
  *
- * @author Tu Nombre
+ * @author Daniel Alejandro Álvarez Casablanca
  * @version 1.0
  */
 public class FixedOrderWeight implements CaseWeightStrategy {

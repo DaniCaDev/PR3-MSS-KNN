@@ -9,7 +9,7 @@
 </div>
 
 <p align="center">
-  <img src="https://i.imgur.com/kqv2wMh.png" alt="KNN Visualization" width="600"/>
+  <img src="https://miro.medium.com/v2/resize:fit:1400/0*jqxx3-dJqFjXD6FA" alt="KNN Visualization" width="600"/>
 </p>
 
 > Un sistema de clasificación avanzado basado en el algoritmo de k-vecinos más cercanos (k-NN) con múltiples características extendidas, desarrollado como parte de la asignatura de Modelado de Sistemas Software.
@@ -455,11 +455,9 @@ El dataset Iris es perfecto para ilustrar el funcionamiento del clasificador k-N
 
 <table align="center">
 <tr>
-  <td align="center"><img src="https://i.imgur.com/6BnzQzx.png" width="400px"/></td>
-  <td align="center"><img src="https://i.imgur.com/5M3POv2.png" width="400px"/></td>
+  <td align="center"><img src="https://imgur.com/a/TzeZIMu" width="400px"/></td>
 </tr>
 <tr>
-  <td align="center"><b>Visualización de clases Iris</b></td>
   <td align="center"><b>Ejemplo de clasificación k-NN (k=3)</b></td>
 </tr>
 </table>

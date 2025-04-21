@@ -6,7 +6,7 @@ package knn.model.classification.metrics;
  * de los cuadrados de las diferencias entre los valores de los atributos.
  * Por eficiencia, no se calcula la raíz cuadrada (como recomendó el profesor).
  *
- * @author Tu Nombre
+ * @author Daniel Alejandro Álvarez Casablanca
  * @version 1.0
  */
 public class EuclideanDistance implements DistanceMetric {

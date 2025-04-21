@@ -5,7 +5,7 @@ package knn.model.classification.metrics;
  * La distancia de Manhattan es la suma de los valores absolutos de
  * las diferencias entre los valores de los atributos.
  *
- * @author Tu Nombre
+ * @author Daniel Alejandro Álvarez Casablanca
  * @version 1.0
  */
 public class ManhattanDistance implements DistanceMetric {

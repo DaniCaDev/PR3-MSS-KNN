@@ -4,7 +4,7 @@ package knn.model.dataset;
  * Clase que representa una instancia (fila) del dataset.
  * Contiene los valores de los atributos para un caso concreto.
  *
- * @author Tu Nombre
+ * @author Daniel Alejandro Álvarez Casablanca
  * @version 1.0
  */
 public class Instance {

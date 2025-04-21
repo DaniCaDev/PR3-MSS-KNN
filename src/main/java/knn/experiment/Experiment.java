@@ -12,7 +12,7 @@ import java.io.IOException;
  * Clase para gestionar experimentos de clasificación con k-nn.
  * Permite dividir datasets, ejecutar experimentos y evaluar resultados.
  *
- * @author Tu Nombre
+ * @author Daniel Alejandro Álvarez Casablanca
  * @version 1.0
  */
 public class Experiment {

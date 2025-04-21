@@ -22,7 +22,7 @@ import java.util.Map;
  * Implementación del clasificador k-nn (k vecinos más cercanos).
  * Permite configurar diferentes métricas, estrategias de peso y reglas de clasificación.
  *
- * @author Tu Nombre
+ * @author Daniel Alejandro Álvarez Casablanca
  * @version 1.0
  */
 public class KNNClassifier {

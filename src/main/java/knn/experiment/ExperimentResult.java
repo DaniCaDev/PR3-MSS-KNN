@@ -8,7 +8,7 @@ import java.util.Set;
  * Clase que representa el resultado de un experimento de clasificación.
  * Almacena información sobre precisión y matriz de confusión.
  *
- * @author Tu Nombre
+ * @author Daniel Alejandro Álvarez Casablanca
  * @version 1.0
  */
 public class ExperimentResult {

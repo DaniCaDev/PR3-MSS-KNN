@@ -4,7 +4,7 @@ package knn.model.dataset.attributes;
  * Clase abstracta que representa un atributo del dataset.
  * Sirve como base para los diferentes tipos de atributos (numéricos y categóricos).
  *
- * @author Tu Nombre
+ * @author Daniel Alejandro Álvarez Casablanca
  * @version 1.0
  */
 public abstract class Attribute {

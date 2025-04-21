@@ -9,7 +9,7 @@ import java.util.Map;
  * Interfaz para definir diferentes estrategias de peso de casos.
  * Cada implementación debe asignar pesos a los vecinos según un criterio específico.
  *
- * @author Tu Nombre
+ * @author Daniel Alejandro Álvarez Casablanca
  * @version 1.0
  */
 public interface CaseWeightStrategy {

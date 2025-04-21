@@ -13,7 +13,7 @@ import java.util.Set;
  * Gestiona el mapeo entre valores de texto y códigos numéricos,
  * y almacena información sobre frecuencias y valores únicos.
  *
- * @author Tu Nombre
+ * @author Daniel Alejandro Álvarez Casablanca
  * @version 1.0
  */
 public class CategoricalAttribute extends Attribute {

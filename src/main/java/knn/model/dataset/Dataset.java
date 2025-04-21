@@ -25,7 +25,7 @@ import java.util.Set;
  * Clase que representa un conjunto de datos (dataset) para clasificación
  * utilizando el método k-nn, con funcionalidades extendidas.
  *
- * @author Tu Nombre
+ * @author Daniel Alejandro Álvarez Casablanca
  * @version 1.0
  */
 public class Dataset {

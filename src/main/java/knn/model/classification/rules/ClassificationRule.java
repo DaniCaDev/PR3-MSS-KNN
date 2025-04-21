@@ -6,7 +6,7 @@ import java.util.Map;
  * Interfaz para definir diferentes reglas de clasificación.
  * Cada implementación debe decidir la clase asignada en función de los votos.
  *
- * @author Tu Nombre
+ * @author Daniel Alejandro Álvarez Casablanca
  * @version 1.0
  */
 public interface ClassificationRule {

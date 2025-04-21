@@ -5,7 +5,7 @@ package knn.model.classification.metrics;
  * La distancia de Chebyshev es el máximo de los valores absolutos de
  * las diferencias entre los valores de los atributos.
  *
- * @author Tu Nombre
+ * @author Daniel Alejandro Álvarez Casablanca
  * @version 1.0
  */
 public class ChebyshevDistance implements DistanceMetric {

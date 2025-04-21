@@ -10,7 +10,7 @@ import java.util.Map;
  * Implementación de estrategia de peso donde todos los vecinos tienen igual peso.
  * Todos los vecinos considerados tienen un peso de 1.0.
  *
- * @author Tu Nombre
+ * @author Daniel Alejandro Álvarez Casablanca
  * @version 1.0
  */
 public class EqualityWeight implements CaseWeightStrategy {

@@ -6,7 +6,7 @@ import java.util.Map;
  * Implementación de regla de clasificación por mayoría simple.
  * La clase elegida es la que tiene más votos acumulados.
  *
- * @author Tu Nombre
+ * @author Daniel Alejandro Álvarez Casablanca
  * @version 1.0
  */
 public class MajorityRule implements ClassificationRule {

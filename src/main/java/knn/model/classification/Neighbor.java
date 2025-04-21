@@ -7,7 +7,7 @@ import knn.model.dataset.Instance;
  * Almacena una instancia junto con su distancia al caso a clasificar
  * y su índice en el dataset original.
  *
- * @author Tu Nombre
+ * @author Daniel Alejandro Álvarez Casablanca
  * @version 1.0
  */
 public class Neighbor implements Comparable<Neighbor> {
