@@ -4,6 +4,9 @@ import knn.model.dataset.attributes.Attribute;
 import knn.model.dataset.attributes.CategoricalAttribute;
 import knn.model.dataset.attributes.NumericAttribute;
 
+import java.io.File;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
@@ -69,7 +72,30 @@ public class Dataset {
             throw new IllegalArgumentException("Debe especificar al menos un índice de clase");
         }
 
-        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
+        // Intentar abrir el archivo de diferentes maneras
+        BufferedReader br = null;
+        try {
+            // 1. Intentar como ruta de archivo directa
+            File file = new File(filename);
+            if (file.exists()) {
+                br = new BufferedReader(new FileReader(file));
+            } else {
+                // 2. Intentar cargarlo como recurso del classpath
+                InputStream is = getClass().getClassLoader().getResourceAsStream(filename);
+                if (is != null) {
+                    br = new BufferedReader(new InputStreamReader(is));
+                } else {
+                    // 3. Probar con una ruta relativa a resources
+                    String resourcePath = "src/main/resources/" + filename;
+                    File resourceFile = new File(resourcePath);
+                    if (resourceFile.exists()) {
+                        br = new BufferedReader(new FileReader(resourceFile));
+                    } else {
+                        throw new IOException("No se pudo encontrar el archivo: " + filename);
+                    }
+                }
+            }
+
             String line;
             int lineNumber = 0;
 
@@ -122,6 +148,10 @@ public class Dataset {
 
             // Guardar las instancias originales
             saveOriginalInstances();
+        } finally {
+            if (br != null) {
+                br.close();
+            }
         }
     }
 
