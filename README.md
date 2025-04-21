@@ -455,7 +455,7 @@ El dataset Iris es perfecto para ilustrar el funcionamiento del clasificador k-N
 
 <table align="center">
 <tr>
-  <td align="center"><img src="https://imgur.com/a/TzeZIMu" width="400px"/></td>
+  <td align="center"><img src="https://i.imgur.com/VuJaREV.png" width="400px"/></td>
 </tr>
 <tr>
   <td align="center"><b>Ejemplo de clasificación k-NN (k=3)</b></td>
